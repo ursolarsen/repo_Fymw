@@ -1,7 +1,5 @@
 # repo_Fymw
 
-**Probando negrita**
+**Repositorio publico para la clase**
 
-
-[w3schools](https://www.w3schools.com/)
 
