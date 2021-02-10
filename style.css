@@ -1,6 +1,67 @@
-body {
-    background-color: salmon;
+body{
+
+    background-color: rgba(255, 255, 255, 0.8);
     margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+#wrapper{
+    font-size: 16px;
+   
+}
+
+p{
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 2em;
+   
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+#nav a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+#footer  #name, .posts article{ 
+    border: 2px dashed #CCCCCC;
+} 
+
+input[name="name"]:focus, input[name="email"]:focus, textarea[name="message"]:focus{
+    background-color: rgb(0, 255, 0);
+}
+
+nav#nav{
+    position: fixed;
+    right: 2px;
+    top: 2px;
+}
+
+nav li{
+    padding: 15px;
+    display:inline-block;    
+
+    border: 2px;
+}
+
+
+.posts article {
+    display: inline-block;
+    width: 20vh;
+    padding: 0 2%;
+}
+
+form{
+    display: inline-block;
+    border: 2px dashed;
+    width: 50%;
+    text-align: center;
 }
